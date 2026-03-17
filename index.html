@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Free Word Counter – Count Words, Characters & Reading Time</title>
+
+    <meta name="description"
+          content="Free online word counter. Instantly count words, characters, sentences, paragraphs and reading time. Fast and simple writing tool.">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="hero">
+
+        <h1>Word Counter</h1>
+
+        <p class="subtitle">
+            Count words, characters, sentences and reading time instantly
+        </p>
+
+    </header>
+
+    <div class="tool">
+
+        <textarea id="textInput" placeholder="Start typing or paste your text here..."></textarea>
+
+        <div class="stats">
+
+            <div class="card">
+                <div class="number" id="wordCount">0</div>
+                <div class="label">Words</div>
+            </div>
+
+            <div class="card">
+                <div class="number" id="charCountWithSpaces">0</div>
+                <div class="label">Characters</div>
+            </div>
+
+            <div class="card">
+                <div class="number" id="charCountNoSpaces">0</div>
+                <div class="label">No Spaces</div>
+            </div>
+
+            <div class="card">
+                <div class="number" id="sentenceCount">0</div>
+                <div class="label">Sentences</div>
+            </div>
+
+            <div class="card">
+                <div class="number" id="paragraphCount">0</div>
+                <div class="label">Paragraphs</div>
+            </div>
+
+            <div class="card">
+                <div class="number" id="readingTime">0 min</div>
+                <div class="label">Reading Time</div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+
+            <button id="copyBtn">Copy Text</button>
+
+            <button id="clearBtn">Clear</button>
+
+        </div>
+
+    </div>
+
+    <section class="info">
+
+        <h2>How to Use This Word Counter</h2>
+
+        <p>
+            Using this word counter is simple. Paste or type your text into the box above and the tool will instantly
+            calculate the number of words, characters, sentences, paragraphs and reading time. This makes it easy to
+            track writing progress for essays, blog posts, reports and assignments.
+        </p>
+
+        <p>
+            Students, writers, marketers and professionals can quickly check the length of their content and improve
+            readability.
+        </p>
+
+    </section>
+
+    <section class="info">
+
+        <h2>Why Word Count Matters</h2>
+
+        <p>
+            Word count is important in many types of writing. Students must often meet minimum word requirements for
+            essays and assignments. Bloggers and content writers use word count to structure articles and provide enough
+            detail for readers.
+        </p>
+
+        <p>
+            In search engine optimization (SEO), longer and well-structured content often performs better in search
+            rankings. Tracking your word count helps ensure your content is clear, complete and informative.
+        </p>
+
+    </section>
+
+    <section class="info">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Does the word counter update automatically?</h3>
+        <p>
+            Yes. The tool updates instantly as you type or paste text into the editor.
+        </p>
+
+        <h3>Is my text stored anywhere?</h3>
+        <p>
+            No. Everything runs directly in your browser. Your text is not stored or sent to any server.
+        </p>
+
+        <h3>How is reading time calculated?</h3>
+        <p>
+            Reading time is estimated using an average reading speed of about 200 words per minute.
+        </p>
+
+    </section>
+
+    <footer>
+
+        <p>Free online writing tools</p>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
